@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge One</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Vector.png" alt="Logotipo de la pagina">
+        </div>
+    </header>
+    <main>
+        <section class="contenedor">
+            <div class="contenedor_cajatexto">
+            <textarea id="texto" class="texto_usuario"   rows="10" cols="20" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="/img/Alert.png" alt="alerta">
+                <p>Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="contenedor_botones">
+                <button onclick="btEncriptar()" class="bt_encriptar">Encriptar</button>
+                <button onclick="btDesencriptar()" class="bt_desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor2">
+            <textarea id="texto_encriptado" class="mensaje" cols="10" rows="10"></textarea>
+            <div class="contenedor_dibujo">
+                <img src="/img/harrypotter.jpg" alt="harrypotter">
+            </div>
+            <div class="contenedor_parrafo">
+                <h3>Ningun mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o<br>desencriptar.</p>
+            </div>
+            <div class="contenedor_copiar">  
+                <button  onclick = "btCopiar()" class="bt_copiar oculto">Copiar</button>
+            </div>
+           
+            
+        </section>
+       
+           
+    </main>
+    <footer >
+        
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
