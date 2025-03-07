@@ -11,7 +11,7 @@ const btnCopiar = document.querySelector(".bt_copiar");
    La letra "u" es convertida para "ufat" */
 
    function btEncriptar(){
-        const textoEncriptado = encriptar(textArea.value)
+        const textoEncriptado = encriptar(mensaje.value);
         mensaje.value = textoEncriptado;
         textArea.value = "";
         dibujo.remove();
